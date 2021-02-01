@@ -1,0 +1,80 @@
+/*import font*/
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@700&family=Damion&family=Dancing+Script&family=Pacifico&display=swap');
+
+/*body*/
+body {
+  background-color:rgb(250, 248, 248);
+}
+#container {
+  width: 500px;
+  margin: auto;
+  /* background-image: url("http://xeneoncraft.gq/wp-content/uploads/2016/08/pattern_40-2.gif"); */
+}
+
+/*Neon Text*/
+.site-title {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 20px 0 20px 0;
+  color: #fff
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.site-title a {
+  font-size: 1.5em;
+  color: #000;
+  font-family: Charmonman;
+}
+
+
+.site-title a {
+  -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon2 1.5s ease-in-out infinite alternate;
+  animation: neon2 1.5s ease-in-out infinite alternate;
+}
+/*glow*/
+@keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #24263B, 0 0 70px #24263B, 0 0 80px #24263B, 0 0 100px #24263B, 0 0 150px #24263B;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #24263B, 0 0 35px #24263B, 0 0 40px #24263B, 0 0 50px #24263B, 0 0 75px #24263B;
+  }
+}
+
+/*webkit glow*/
+@-webkit-keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+  }
+}
+
+/*moz glow*/
+@-moz-keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+  }
+}
+
+
+.mySpan {
+ color:#FF4A57;
+ 
+}
+
+
+/*  image overlay */
+
+
+
